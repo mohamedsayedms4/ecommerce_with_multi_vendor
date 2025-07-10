@@ -13,17 +13,8 @@ public class Main {
 
         var context = new AnnotationConfigApplicationContext(Config.class);
 
-        Vehicle vehicle1 =context.getBean("bmw",Vehicle.class);
-        System.out.println(vehicle1.getName());
-
-        Vehicle vehicle2 =context.getBean("Audi",Vehicle.class);
-        System.out.println(vehicle2.getName());
-
-        Vehicle vehicle3 =context.getBean("Toyota",Vehicle.class);
-        System.out.println(vehicle3.getName());
 
         var vh = context.getBean(Vehicle.class);
-        System.out.println(vh.getName());
-
+        vh.print();
     }
 }
