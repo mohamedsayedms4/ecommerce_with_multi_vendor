@@ -1,0 +1,79 @@
+2025-07-19T09:41:22.087+03:00  INFO 11720 --- [sprig-jpa-1] [main] o.e.sprigjpa1.SprigJpa1Application       : Starting SprigJpa1Application using Java 24 with PID 11720 (C:\Users\Mohamed\Desktop\Github\Problem Solving -LetCode\sprig-jpa-1\target\classes started by Mohamed in C:\Users\Mohamed\Desktop\Github\Problem Solving -LetCode\sprig-jpa-1)
+2025-07-19T09:41:22.089+03:00  INFO 11720 --- [sprig-jpa-1] [main] o.e.sprigjpa1.SprigJpa1Application       : No active profile set, falling back to 1 default profile: "default"
+2025-07-19T09:41:22.619+03:00  INFO 11720 --- [sprig-jpa-1] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-19T09:41:22.681+03:00  INFO 11720 --- [sprig-jpa-1] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55 ms. Found 4 JPA repository interfaces.
+2025-07-19T09:41:23.011+03:00  INFO 11720 --- [sprig-jpa-1] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-19T09:41:23.022+03:00  INFO 11720 --- [sprig-jpa-1] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-19T09:41:23.022+03:00  INFO 11720 --- [sprig-jpa-1] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-19T09:41:23.067+03:00  INFO 11720 --- [sprig-jpa-1] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-19T09:41:23.068+03:00  INFO 11720 --- [sprig-jpa-1] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 928 ms
+2025-07-19T09:41:23.212+03:00  INFO 11720 --- [sprig-jpa-1] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-19T09:41:23.517+03:00  INFO 11720 --- [sprig-jpa-1] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 0be4c91c-b896-4b4a-99f0-27a3d67ddfed
+2025-07-19T09:41:23.519+03:00  INFO 11720 --- [sprig-jpa-1] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-19T09:41:23.562+03:00  INFO 11720 --- [sprig-jpa-1] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-19T09:41:23.600+03:00  INFO 11720 --- [sprig-jpa-1] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-19T09:41:23.627+03:00  INFO 11720 --- [sprig-jpa-1] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-07-19T09:41:23.860+03:00  INFO 11720 --- [sprig-jpa-1] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-19T09:41:23.986+03:00  INFO 11720 --- [sprig-jpa-1] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-19T09:41:24.742+03:00  INFO 11720 --- [sprig-jpa-1] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-19T09:41:24.745+03:00  INFO 11720 --- [sprig-jpa-1] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-19T09:41:24.987+03:00  INFO 11720 --- [sprig-jpa-1] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-07-19T09:41:25.464+03:00  WARN 11720 --- [sprig-jpa-1] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-19T09:41:25.738+03:00  INFO 11720 --- [sprig-jpa-1] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-19T09:41:25.745+03:00  INFO 11720 --- [sprig-jpa-1] [main] o.e.sprigjpa1.SprigJpa1Application       : Started SprigJpa1Application in 4.099 seconds (process running for 4.734)
+2025-07-19T09:41:32.385+03:00  INFO 11720 --- [sprig-jpa-1] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-19T09:41:32.385+03:00  INFO 11720 --- [sprig-jpa-1] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-19T09:41:32.387+03:00  INFO 11720 --- [sprig-jpa-1] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-07-19T09:41:32.713+03:00 ERROR 11720 --- [sprig-jpa-1] [http-nio-8080-exec-1] o.e.sprigjpa1.service.EmployeeService    : this email is ahmed123
+2025-07-19T09:42:10.617+03:00  INFO 11720 --- [sprig-jpa-1] [http-nio-8080-exec-3] o.e.sprigjpa1.service.EmployeeService    : Logged in user: ahmed123
+2025-07-19T09:43:05.525+03:00  INFO 11720 --- [sprig-jpa-1] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-19T09:43:05.541+03:00  INFO 11720 --- [sprig-jpa-1] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-19T09:43:05.544+03:00  INFO 11720 --- [sprig-jpa-1] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-19T09:43:05.547+03:00  INFO 11720 --- [sprig-jpa-1] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-19T09:43:05.552+03:00  INFO 11720 --- [sprig-jpa-1] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-07-19T09:43:07.731+03:00  INFO 6524 --- [sprig-jpa-1] [main] o.e.sprigjpa1.SprigJpa1Application       : Starting SprigJpa1Application using Java 24 with PID 6524 (C:\Users\Mohamed\Desktop\Github\Problem Solving -LetCode\sprig-jpa-1\target\classes started by Mohamed in C:\Users\Mohamed\Desktop\Github\Problem Solving -LetCode\sprig-jpa-1)
+2025-07-19T09:43:07.733+03:00  INFO 6524 --- [sprig-jpa-1] [main] o.e.sprigjpa1.SprigJpa1Application       : No active profile set, falling back to 1 default profile: "default"
+2025-07-19T09:43:08.269+03:00  INFO 6524 --- [sprig-jpa-1] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-19T09:43:08.333+03:00  INFO 6524 --- [sprig-jpa-1] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 4 JPA repository interfaces.
+2025-07-19T09:43:08.692+03:00  INFO 6524 --- [sprig-jpa-1] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-19T09:43:08.703+03:00  INFO 6524 --- [sprig-jpa-1] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-19T09:43:08.703+03:00  INFO 6524 --- [sprig-jpa-1] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-19T09:43:08.744+03:00  INFO 6524 --- [sprig-jpa-1] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-19T09:43:08.745+03:00  INFO 6524 --- [sprig-jpa-1] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 965 ms
+2025-07-19T09:43:08.893+03:00  INFO 6524 --- [sprig-jpa-1] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-19T09:43:09.203+03:00  INFO 6524 --- [sprig-jpa-1] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 78b6daca-dd24-4caf-8242-8b7b600a1be4
+2025-07-19T09:43:09.205+03:00  INFO 6524 --- [sprig-jpa-1] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-19T09:43:09.243+03:00  INFO 6524 --- [sprig-jpa-1] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-19T09:43:09.280+03:00  INFO 6524 --- [sprig-jpa-1] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-19T09:43:09.306+03:00  INFO 6524 --- [sprig-jpa-1] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-07-19T09:43:09.550+03:00  INFO 6524 --- [sprig-jpa-1] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-19T09:43:09.707+03:00  INFO 6524 --- [sprig-jpa-1] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-19T09:43:10.413+03:00  INFO 6524 --- [sprig-jpa-1] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-19T09:43:10.416+03:00  INFO 6524 --- [sprig-jpa-1] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-19T09:43:10.714+03:00  INFO 6524 --- [sprig-jpa-1] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-07-19T09:43:11.122+03:00  WARN 6524 --- [sprig-jpa-1] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-19T09:43:11.388+03:00  INFO 6524 --- [sprig-jpa-1] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-19T09:43:11.395+03:00  INFO 6524 --- [sprig-jpa-1] [main] o.e.sprigjpa1.SprigJpa1Application       : Started SprigJpa1Application in 4.096 seconds (process running for 4.758)
+2025-07-19T09:43:19.975+03:00  INFO 6524 --- [sprig-jpa-1] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-19T09:43:19.975+03:00  INFO 6524 --- [sprig-jpa-1] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-19T09:43:19.976+03:00  INFO 6524 --- [sprig-jpa-1] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-07-19T09:43:20.195+03:00  INFO 6524 --- [sprig-jpa-1] [http-nio-8080-exec-2] o.e.sprigjpa1.service.EmployeeService    : Logged in user: ahmed123
+2025-07-19T09:48:34.328+03:00  INFO 6524 --- [sprig-jpa-1] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-19T09:48:34.342+03:00  INFO 6524 --- [sprig-jpa-1] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-19T09:48:34.346+03:00  INFO 6524 --- [sprig-jpa-1] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-19T09:48:34.348+03:00  INFO 6524 --- [sprig-jpa-1] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-19T09:48:34.351+03:00  INFO 6524 --- [sprig-jpa-1] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>تقرير الموظفين - Remotlly</title>
+    <style>
+        body {
+            font-family: Tahoma, sans-serif;
+            direction: rtl;
+            padding: 40px;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 3px solid #007BFF;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+
+        .header img {
+            width: 80px;
+        }
+
+        .header h1 {
+            font-size: 24px;
+            color: #007BFF;
+            margin: 0;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #343a40;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 40px;
+        }
+
+        thead {
+            background-color: #007BFF;
+            color: white;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .footer {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+            font-size: 14px;
+        }
+
+        .signature {
+            text-align: left;
+        }
+
+        .signature-line {
+            border-top: 1px solid black;
+            width: 200px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <img src="file:src/main/resources/static/re.png" alt="شعار Remotlly" />
+    <h1>شركة Remotlly<br>تقرير الموظفين</h1>
+</div>
+
+<h2>قائمة بيانات الموظفين</h2>
+
+<table>
+    <thead>
+    <tr>
+        <th>الرقم</th>
+        <th>الاسم الأول</th>
+        <th>الاسم الأخير</th>
+        <th>الراتب</th>
+        <th>القسم</th>
+        <th>تاريخ التحديث</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>1</td>
+        <td>سارة</td>
+        <td>خالد</td>
+        <td>8500</td>
+        <td>المبيعات</td>
+        <td>2025-07-17</td>
+    </tr>
+    </tbody>
+</table>
+
+<div class="footer">
+    <div>تاريخ التقرير: 2025-07-18</div>
+    <div class="signature">
+        <div>المسؤول التنفيذي</div>
+        <div class="signature-line"></div>
+    </div>
+</div>
+
+</body>
+</html>
